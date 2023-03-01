@@ -38,7 +38,7 @@ namespace TgBot
 
             if (message?.Text != null)
             {
-                if (message.Text.ToLower().Contains("start monitoring11ww22qweqweqweqweq"))
+                if (message.Text.ToLower().Contains("start monitoring"))
                 {
                     await bot.SendTextMessageAsync(message.Chat.Id, "File monitoring running test 111123232323232321");
 
