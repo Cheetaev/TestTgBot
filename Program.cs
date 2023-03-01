@@ -46,7 +46,7 @@ namespace TgBot
 
                 if (message.Text.ToLower().Contains("stop monitoring"))
                 {
-                    await bot.SendTextMessageAsync(message.Chat.Id, "File monitoring stopped");
+                    await bot.SendTextMessageAsync(message.Chat.Id, "File monitoring stopped wqeqwewqeqwewqeqw");
                 }
 
                 Console.WriteLine(message.Chat.Id);
